@@ -147,7 +147,7 @@ def main(args):
     log_string("PARAMETER ...")
     log_string(args)
 
-    root = "data/stanford_indoor3d/"
+    root = "/workspace/dataset/stanford_indoor3d/"
     NUM_CLASSES = 13
     NUM_POINT = args.npoint
     BATCH_SIZE = args.batch_size

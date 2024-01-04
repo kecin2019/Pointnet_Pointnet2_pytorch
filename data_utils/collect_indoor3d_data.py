@@ -11,7 +11,7 @@ anno_paths = [
 ]
 anno_paths = [os.path.join(DATA_PATH, p) for p in anno_paths]
 
-output_folder = os.path.join(ROOT_DIR, "data/stanford_indoor3d")
+output_folder = "/workspace/dataset/stanford_indoor3d"
 if not os.path.exists(output_folder):
     os.mkdir(output_folder)
 
