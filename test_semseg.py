@@ -113,7 +113,7 @@ def main(args):
     BATCH_SIZE = args.batch_size
     NUM_POINT = args.num_point
 
-    root = "data/s3dis/stanford_indoor3d/"
+    root = "/workspace/dataset/stanford_indoor3d/"
 
     TEST_DATASET_WHOLE_SCENE = ScannetDatasetWholeScene(
         root, split="test", test_area=args.test_area, block_points=NUM_POINT
@@ -221,7 +221,7 @@ def main(args):
                 total_iou_deno_class[l] += total_iou_deno_class_tmp[l]
 
             iou_map = np.array(total_correct_class_tmp) / (
-                np.array(total_iou_deno_class_tmp, dtype=np.float) + 1e-6
+                np.array(total_iou_deno_class_tmp, dtype=np.float64) + 1e-6
             )
             print(iou_map)
             arr = np.array(total_seen_class_tmp)
@@ -265,7 +265,7 @@ def main(args):
                 fout_gt.close()
 
         IoU = np.array(total_correct_class) / (
-            np.array(total_iou_deno_class, dtype=np.float) + 1e-6
+            np.array(total_iou_deno_class, dtype=np.float64) + 1e-6
         )
         iou_per_class_str = "------- IoU --------\n"
         for l in range(NUM_CLASSES):
@@ -280,7 +280,7 @@ def main(args):
             % (
                 np.mean(
                     np.array(total_correct_class)
-                    / (np.array(total_seen_class, dtype=np.float) + 1e-6)
+                    / (np.array(total_seen_class, dtype=np.float64) + 1e-6)
                 )
             )
         )
