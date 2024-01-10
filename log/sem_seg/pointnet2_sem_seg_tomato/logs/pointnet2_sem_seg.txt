@@ -1,0 +1,63 @@
+2024-01-10 10:02:41,514 - Model - INFO - PARAMETER ...
+2024-01-10 10:02:41,514 - Model - INFO - Namespace(batch_size=64, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:03:04,148 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:03:04,149 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:03:04,174 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:03:04,376 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:03:04,376 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:05:32,508 - Model - INFO - PARAMETER ...
+2024-01-10 10:05:32,508 - Model - INFO - Namespace(batch_size=32, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:05:46,646 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:05:46,646 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:05:46,724 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:05:46,911 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:05:46,911 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:11:49,730 - Model - INFO - PARAMETER ...
+2024-01-10 10:11:49,731 - Model - INFO - Namespace(batch_size=32, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:12:07,482 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:12:07,482 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:12:07,517 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:12:07,727 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:12:07,727 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:14:37,770 - Model - INFO - PARAMETER ...
+2024-01-10 10:14:37,770 - Model - INFO - Namespace(batch_size=32, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:14:57,148 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:14:57,148 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:14:57,168 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:14:57,355 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:14:57,355 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:17:32,662 - Model - INFO - PARAMETER ...
+2024-01-10 10:17:32,662 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:17:54,623 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:17:54,624 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:17:54,657 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:17:54,888 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:17:54,888 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:21:04,673 - Model - INFO - PARAMETER ...
+2024-01-10 10:21:04,673 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:21:28,392 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:21:28,392 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:21:28,405 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:21:28,582 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:21:28,582 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:22:48,430 - Model - INFO - PARAMETER ...
+2024-01-10 10:22:48,430 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:23:04,310 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:23:04,310 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:23:04,322 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:23:04,505 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:23:04,505 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:52:42,215 - Model - INFO - PARAMETER ...
+2024-01-10 10:52:42,216 - Model - INFO - Namespace(batch_size=100, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:52:56,240 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:52:56,240 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:52:56,312 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:52:56,493 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:52:56,493 - Model - INFO - Learning rate:0.001000
+2024-01-10 10:56:33,346 - Model - INFO - PARAMETER ...
+2024-01-10 10:56:33,346 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg_tomato', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', step_size=10, test_area=7)
+2024-01-10 10:56:48,342 - Model - INFO - The number of training data is: 40832
+2024-01-10 10:56:48,342 - Model - INFO - The number of test data is: 7320
+2024-01-10 10:56:48,369 - Model - INFO - No existing model, starting training from scratch...
+2024-01-10 10:56:48,551 - Model - INFO - **** Epoch 1 (1/32) ****
+2024-01-10 10:56:48,551 - Model - INFO - Learning rate:0.001000

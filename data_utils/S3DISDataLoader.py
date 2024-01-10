@@ -248,7 +248,7 @@ class ScannetDatasetWholeScene:
 
 
 if __name__ == "__main__":
-    data_root = "/data/yxu/PointNonLocal/data/stanford_indoor3d/"
+    data_root = "/workspace/dataset/stanford_indoor3d"
     num_point, test_area, block_size, sample_rate = 4096, 5, 1.0, 0.01
 
     point_data = S3DISDataset(

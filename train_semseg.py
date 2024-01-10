@@ -41,6 +41,7 @@ seg_classes = class2label
 seg_label_to_cat = {}
 for i, cat in enumerate(seg_classes.keys()):
     seg_label_to_cat[i] = cat
+print(seg_label_to_cat)
 
 
 def inplace_relu(m):
